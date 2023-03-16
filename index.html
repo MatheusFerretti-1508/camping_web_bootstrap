@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <title>CampingWeb</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CampingWeb</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#objetivo">Nosso objetivo</a>
+                    </li>
+                    <li>
+                        <a href="#produtos">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#filosofia">Nossa filosofia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="slidef" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./images/Fogueira.jpg">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/Acampamento.jpg">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/FacaDeCaçaSlide.jpg">
+            </div>
+        </div>
+        <button data-bs-target="#slidef" data-bs-slide="prev" type="button" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#slidef" data-bs-slide="next" type="button" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="container container-cards">
+        <div class="row">
+            <div class="col-lg-4 g-0 col-sm-12 card-mobile col-md-6">
+                <div id="objetivo" class="card text-bg-dark">
+                    <div class="card-header">
+                        <h2>Nosso objetivo</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias natus tempore, ea aliquid numquam, ullam cupiditate laboriosam, libero aliquam consectetur sunt? Commodi tempora, pariatur est recusandae id rerum dolor.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias natus tempore, ea aliquid numquam, ullam cupiditate laboriosam, libero aliquam consectetur sunt? Commodi tempora, pariatur est recusandae id rerum dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 g-0 col-sm-12 col-md-6">
+                <div class="card card-meio text-bg-dark card-produtos">
+                    <div class="card-header">
+                        <h3>Materiais de confecção</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias natus tempore, ea aliquid numquam, ullam cupiditate laboriosam, libero aliquam consectetur sunt? Commodi tempora, pariatur est recusandae id rerum dolor.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias natus tempore, ea aliquid numquam, ullam cupiditate laboriosam, libero aliquam consectetur sunt? Commodi tempora, pariatur est recusandae id rerum dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="filosofia" class="col-lg-4 g-0 col-sm-12 col-md-12">
+                <div class="card text-bg-dark card-filosofia-ultimo-produto">
+                    <div class="card-header">
+                        <h2>Nossa filosofia</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias natus tempore, ea aliquid numquam, ullam cupiditate laboriosam, libero aliquam consectetur sunt? Commodi tempora, pariatur est recusandae id rerum dolor.
+                            </p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur alias natus tempore, ea aliquid numquam, ullam cupiditate laboriosam, libero aliquam consectetur sunt? Commodi tempora, pariatur est recusandae id rerum dolor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3 id="produtos" class="d-flex justify-content-center t-produtos">Produtos</h3>
+            <div class="col-lg-4 g-0 col-sm-12 col-md-6">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        <h2 class="d-flex justify-content-center">Machado de campo</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-img">
+                            <img src="./images/produto1.jpg">
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center h4">
+                        <div class="botao-comprar">
+                            <strong class="d-flex justify-content-center preco">R$ 350,00</strong> 
+                            <button class="btn btn-success" type="button">Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 g-0 col-sm-12 col-md-6">
+                <div class="card text-bg-dark card-meio img-meio">
+                    <div class="card-header">
+                        <h3 class="d-flex justify-content-center">Machado de escalada</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-img img-meio">
+                            <img src="./images/produto2.jpg">
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center h4">
+                        <div class="botao-comprar">
+                            <strong class="d-flex justify-content-center preco">R$ 350,00</strong> 
+                            <button class="btn btn-success" type="button">Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 g-0 col-sm-12 col-md-12">
+                <div class="card text-bg-dark card-filosofia-ultimo-produto img-ultima">
+                    <div class="card-header">
+                        <h2 class="d-flex justify-content-center">Faca de caça</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-img">
+                            <img src="./images/produto3.jpg">
+                        </div>
+                    </div>
+                    <div class="card-footer d-flex justify-content-center h4">
+                        <div class="botao-comprar">
+                            <strong class="d-flex justify-content-center preco">R$ 350,00</strong> 
+                            <button class="btn btn-success" type="button">Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+        })
+    </script>
+</body>
+</html>
